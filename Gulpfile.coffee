@@ -29,4 +29,4 @@ gulp.task 'mocha', ->
 gulp.task 'watch', ->
   gulp.watch 'src/**/*.coffee', ['coffee:lint', 'coffee:compile', 'mocha']
 
-gulp.task 'default', ['coffee:lint', 'coffee:compile', 'mocha'],  ->
+gulp.task 'default', ['coffee:lint', 'coffee:compile', 'mocha', 'watch'],  ->
