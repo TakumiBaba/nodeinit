@@ -5,7 +5,6 @@ assert = require 'assert'
 
 describe 'test', ->
 
-  script = require path.resolve()
-
-  it 'should be hoge', ->
-    return assert.equal 'hoge', script()
+  it "test", (done) ->
+    assert.equal 0, 0
+    done()
