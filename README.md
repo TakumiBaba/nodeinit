@@ -6,11 +6,11 @@ node_moduleを開発し始めるためのベース
 
 # usage
 
-    $ git clone https://github.com/geta6/nodeinit
+    $ git clone https://github.com/TakumiBaba/nodeinit
     $ cd nodeinit
     $ npm i
-    $ npm i -g grunt-cli
-    $ grunt
+    $ npm i -g gulp
+    $ gulp
 
 # tasks
 
