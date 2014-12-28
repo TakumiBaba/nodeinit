@@ -6,17 +6,11 @@
   "bin": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-coffeelint": "git+https://github.com/geta6/grunt-coffeelint",
-    "grunt-contrib-coffee": "*",
-    "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch",
-    "grunt-notify": "*",
-    "grunt-simple-mocha": "*",
     "gulp": "^3.8.8",
     "gulp-coffee": "^2.2.0",
     "gulp-coffeelint": "^0.4.0",
